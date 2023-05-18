@@ -1,0 +1,55 @@
+*{font-family: 'Rubik', sans-serif;}
+
+.back {
+    width: 300px;
+    height: 360px;
+    background-color: #263A29;
+    text-align: center;
+    border-radius: 20px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border : none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+#operator {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    margin-left: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #F2E3DB;
+    background-color: #263A29;
+    border : none;
+    
+}
+
+#result {
+    width: 190px;
+    height: 43px;
+    margin: 5px;
+    margin-left: 5px;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 40px;
+    color: #F2E3DB;
+    background-color: #263A29;
+    border : none; 
+    appearance:none
+}
+
+.num {
+    color:#F2E3DB;
+    background-color: #41644A;
+}
+
+.code {
+    color: #F2E3DB;
+    background-color: #E86A33;
+}

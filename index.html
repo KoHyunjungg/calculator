@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel = stylesheet href = "./calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="back">
+    <div>
+        <input readonly id="operator"> 
+        <input readonly type="number" id="result">
+        <!-- 속성 readonly로 설정, 숫자만 들어가기 때문에 타입 넘버로 설정 -->
+        
+    </div>
+    <div>
+        <button class = num id="n7">7</button>
+        <button class = num id="n8">8</button>
+        <button class = num id="n9">9</button>
+        <button class = code id="op_plus">+</button>
+    </div>
+
+    <div>
+        <button class = num id="n4">4</button>
+        <button class = num id="n5">5</button>
+        <button class = num id="n6">6</button>
+        <button class = code id="op_sub">-</button>
+    </div>
+
+    <div>
+        <button class = num id="n1">1</button>
+        <button class = num id="n2">2</button>
+        <button class = num id="n3">3</button>
+        <button class = code id="op_mul">*</button>
+    </div>
+
+    <div>
+        <button class = code id="op_clr">C</button>
+        <button class = num id="n0">0</button>
+        <button class = code id="op_c">=</button>
+        <button class = code id="op_div">/</button>
+    </div>
+    <script src = "./calculator.js"></script>
+    </div>
+</body>
+</html>
